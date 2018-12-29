@@ -17,7 +17,7 @@ chmod +x backup-files.sh
 ```
 min hour day mon weekday {path to bash} {path to backup sheel}backup-files.sh >> {where you want to log the output} 2>&1 #comment
 ```
-like for everyday 1:40AM
+like for every friday 1:40AM
 ```
 40 1 * * 5 /bin/bash /etc/backups/backup-files.sh >> /usr/cron/logs/backup.log 2>&1 #backup files
 ```
