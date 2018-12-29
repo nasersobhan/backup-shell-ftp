@@ -2,7 +2,7 @@
 backup your Linux (web) server file into a remote ftp using crontab
 this is what I use almost all the time to backup my files with cron job.
 * run a curl command before backup - **clear cache or something**
-* backup a whole directoy with abslue path
+* backup a whole directoy with absolute path
 * compress the backup files
 * auto remove old files (more than 3 days)
 * send confirmation email 
